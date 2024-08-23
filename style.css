@@ -1,0 +1,144 @@
+@font-face {
+    font-family: mega-man-x;
+    src: url('./fonts/mega-man-x.ttf');
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(0, 172, 92);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.text-area {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    width: 680px;
+    height: 48px;
+    border-style: outset;
+    border-color: rgb(146, 202, 255);
+    resize: none;
+
+}
+
+.mensagem {
+    font-family: 'mega-man-x';
+    font-weight: 400;
+    font-size: 25px;
+    color: #71c9ff;
+    border-style: outset;
+    border-color: rgb(146, 202, 255);
+    width: 360px;
+    height: 300px;
+    resize: none;
+}
+
+.bto-copiar {
+    background-color: aqua;
+}
+
+main {
+    display: flex;
+    gap: 120px;
+}
+
+.informacao {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 18px;
+    padding: 2px;
+    opacity: 80%;
+    gap: 16px;
+}
+
+.info-icon {
+    display: flex;
+    gap: 4px;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    gap: 570px;    
+}
+.secao2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.div-mensagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 340px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.botoes {
+    display: flex;
+    gap: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bto-encriptar {
+    font-size: larger;
+    width: 328px;
+    height: 67px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #ff51b1;
+}
+
+.bto-desencriptar {
+    font-size: larger;
+    width: 328px;
+    height: 67px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #63c3ff;
+}
+.bto-copiar{
+    font-size: larger;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #0A3871;
+    background-color: #ffffff;
+}
+
+.rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    
+}
